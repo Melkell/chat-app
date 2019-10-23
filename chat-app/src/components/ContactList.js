@@ -34,3 +34,4 @@ const ContactList = () => {
         {lesCons.map(item => <Contact name ={item.name} img={item.picture} online ={item.online} />)}
     </div>
 }
+export default ContactList
